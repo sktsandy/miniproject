@@ -1,0 +1,238 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+
+.main_wrapper {
+ background-color: #8e44ad;
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center; 
+}
+
+.main_wrapper button {
+  padding: 10px;
+  background: #9b59b6;
+  color: #fff;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  width: 300px;
+}
+
+.main_wrapper input {
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  outline: none;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px;
+}
+.main_wrapper h1{
+  margin: 10px;
+}
+
+h1{
+  margin:80px 0px;
+  text-align: center;
+  text-transform : capitalize;
+  font-weight : bold;
+  font-family : "krona One", sans-serif;
+}
+.Cards{
+    margin-left:200px;
+}
+.random_img img{
+  width: 300px;
+  height: 300px;
+}
+.random_img{
+  margin: 15px;
+  float: left;
+  box-shadow: 10px 3px 8px #ccc;
+}
+.random_img:hover{
+ box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+ transform: scale(1.05);
+}
+.card_info {
+    text-align: center;
+    background-color: aqua;
+    margin-top: -4px;
+    padding: 16px;
+}
+
+.card_info button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: orange;
+  border-radius: 10px;
+  outline: none;
+  border: 1px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+h2.title {
+  padding-top: 8px;
+  font-size: 25px;
+}
+
+/***** ToDo list css *****/
+
+.main_div{
+  width:100%;
+  height: 100vh;
+  background-color: #6983aa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div{
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+}
+
+.center_div h2{
+  font-size: 35px;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.center_div input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+
+.center_div button{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background:#39e642;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.center_div button:hover{
+  background-color: #fff;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.8);
+}
+
+.center_div ol{
+  margin-top: 30px;
+}
+
+.center_div ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .deleteIcon{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+.todo_style .deleteIcon:hover{
+ color: crimson;
+ background: #fff;
+ box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+}
+
+
+
+/***    COunt component css *****/
+.count_btn button {
+  background-color:#fff;
+  color:#000;
+  width: 100px;
+  border-radius: 5%;
+  padding: 15px;
+  margin: 20px;
+}
+
+.count_btn .btn_green:hover{
+  background-color: #ccc;
+  color: #39e642;
+}
+
+.count_btn .btn_red:hover{
+  background-color: #ccc;
+  color: red;
+}
+
+.main_count_div{
+  width:100%;
+  height: 100vh;
+  background-color: #39e642;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main_count_div .center_div{
+  width: 25%;
+  height: 70vh;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+}
+
+.main_count_div .center_div h1{
+  margin-top: 20px;
+  font-size: 40px;
+  text-shadow: 1px 1px 3px #000;
+  font-weight: normal;
+}
+

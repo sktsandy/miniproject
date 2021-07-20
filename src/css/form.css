@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+.form_wrapper{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.form_wrapper input{
+    width: 300px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}

@@ -1,0 +1,108 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+
+.header{
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgb(144, 144, 144);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+.header h2{
+    font-size: 25px;
+    margin-left: 10px;
+    color: #5f6368;
+}
+
+.create_note form {
+    position: relative;
+    width: 600px;
+    margin: 32px auto 50px auto;
+    background: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128 128 128);
+}
+
+.create_note form input {
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 20px;
+    resize: none;
+    font-weight: 500;
+}
+
+.create_note form textarea{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    resize: none;
+}
+
+.note{
+    width: 250px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgb(175 175 175);
+    margin: 15px;
+    float: left;
+}
+
+.note h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.note p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.create_note button {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background: rgb(255, 200, 18);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 1px 3px rgb(165 165 165);
+    cursor: pointer;
+}
+
+.create_note button:hover{
+    background: #fff;
+    color: rgb(255, 200, 18);
+}
+
+.note button {
+    background: rgb(255, 200, 18);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 188px;
+    box-shadow: 0 1px 3px rgb(165 165 165);
+    cursor: pointer;
+}
+
+.note button:hover{
+    color: rgb(255, 200, 18);
+    background: #fff;
+}
